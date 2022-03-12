@@ -13,8 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Jokul Mokas',
       theme: ThemeData(
-        primarySwatch: Colors.grey,
+        primarySwatch: Colors.deepOrange,
       ),
+      debugShowCheckedModeBanner: false,
       home: MyHomePage(
         title: 'Jokul-Mokas',
       ),
